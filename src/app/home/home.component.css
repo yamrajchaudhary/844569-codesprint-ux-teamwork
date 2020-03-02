@@ -1,0 +1,38 @@
+div{
+    text-align: center;
+  }
+  button
+  {
+    font-size: xx-large;
+  }
+  
+  body{
+    background-color: teal;
+    background-image: url("https://images.pexels.com/photos/949132/pexels-photo-949132.jpeg?auto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D3%26h%3D750%26w%3D1260");
+    width: 100;
+    height: 100;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+.button {
+  background-color:silver; /* Green */
+  border: none;
+  color: white;
+  padding: 50px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+p
+{
+  font-size: xx-large;
+}
+  
+  
+    
+
+  

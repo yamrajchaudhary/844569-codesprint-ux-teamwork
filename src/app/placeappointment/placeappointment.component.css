@@ -1,0 +1,100 @@
+body {
+    background-color:skyblue;
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.table-bordered{
+border: 1px solid black;
+}
+
+body {background-image: url("https://images.pexels.com/photos/949132/pexels-photo-949132.jpeg?auto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D3%26h%3D750%26w%3D1260");
+width:100%;
+height:100%;
+font-family: "Lato", sans-serif;
+}
+h1{
+font-weight: bold;
+}
+
+
+.openbtn {
+font-size: 20px;
+cursor: pointer;
+background-color: #111;
+color: white;
+padding: 10px 15px;
+border: none;
+}
+.sidebar {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidebar a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 15px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidebar a:hover {
+color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 20px;
+margin-left: 50px;
+}
+
+.openbtn {
+font-size: 20px;
+cursor: pointer;
+background-color: #111;
+color: white;
+padding: 10px 15px;
+border: none;
+}
+
+.openbtn:hover {
+background-color: #444;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 15px;}
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+

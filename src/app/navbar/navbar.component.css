@@ -1,0 +1,22 @@
+ .dfb{
+    background: bg-dark;
+    color: #fff;
+  }
+a{
+  color:white;
+}
+.spacer
+{
+    flex:1 1 auto;
+}
+img {
+    border-radius: 50%;
+    width:9%;
+    height:40px;
+  }
+  h1{
+    text-align: left;
+  }
+  
+
+  

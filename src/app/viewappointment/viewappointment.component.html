@@ -1,0 +1,49 @@
+
+
+<div class="col-md-6">
+    <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>firstname</th>
+      <th>lastname</th>
+      <th>password</th>
+      <th>email</th>
+      <th>phonenumber</th>
+      <th>street</th>
+      <th>city</th>
+      <th>state</th>
+      <th>zip</th>
+      <th>country</th>
+      <th>trainerpreference</th>
+       <th>physio</th>
+       <th>slot</th>
+       <th>packageprice</th>
+       <th>Quotes</th>
+      </tr>
+    </thead>
+    <tbody>
+       
+           
+             
+        <tr *ngFor="let data of apt">
+            <td>{{data.firstname}}</td>
+            <td>{{data.lastname}}</td>
+            <td>{{data.password}}</td>
+            <td>{{data.email}}</td>
+            <td>{{data.phonenumber}}</td>
+            <td>{{data.street}}</td>
+            <td>{{data.city}}</td>
+            <td>{{data.state}}</td>
+            <td>{{data.zip}}</td>
+            <td>{{data.country}}</td>
+            <td>{{data.trainerpreference}}</td>
+            <td>{{data.physio}}</td>
+            <td>{{data.slot}}</td>
+            <td>{{data.packageprice}}</td>
+            <td>{{data.Quotes}}</td>
+
+            </tr>
+    </tbody>
+      </table>
+  
+    </div>

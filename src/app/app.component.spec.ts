@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'codesprint-ux-angularSPA'`, () => {
+  it(`should have as title 'fitness'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('codesprint-ux-angularSPA');
+    expect(app.title).toEqual('fitness');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('codesprint-ux-angularSPA app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('fitness app is running!');
   });
 });
